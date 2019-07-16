@@ -92,3 +92,33 @@
 // var pi = "3.14";
 //  parseFloat(pi);
 //  console.log(pi);
+
+// var saySomething = function(whatToSay) 
+// {
+//     alert(whatToSay);
+//     };
+//     console.log(saySomething);
+
+//     var add = function(number1, number2) 
+//     {
+//     return number1 + number2;
+//     };
+   
+//     console.log(add);
+
+
+// var add = function(number1, number2)
+//  {
+//     return 2 + 4;
+//   }
+//   console.log("return");
+
+
+  /// function and parseint 
+var add = function(number1, number2) {
+    return number1 + number2;
+  };
+  var number1 = parseInt(prompt("Enter a number:"));
+  var number2 = parseInt(prompt("Enter another number:"));
+  alert(add(number1, number2));
+  console.log(add);
