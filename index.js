@@ -115,10 +115,56 @@
 
 
   /// function and parseint 
-var add = function(number1, number2) {
-    return number1 + number2;
-  };
-  var number1 = parseInt(prompt("Enter a number:"));
-  var number2 = parseInt(prompt("Enter another number:"));
-  alert(add(number1, number2));
-  console.log(add);
+// var add = function(number1, number2) {
+//     return number1 + number2;
+//   };
+//   var number1 = parseInt(prompt("Enter a number:"));
+//   var number2 = parseInt(prompt("Enter another number:"));
+//   alert(add(number1, number2));
+//   console.log(add);
+
+///if statements
+// var enoughSleep = true;
+// if (enoughSleep) {
+//   console.log("I'm ready to go!");
+// } else {
+//   console.log("I need a nap.");
+// }
+
+
+// var temperature = 15;
+
+// if (temperature < 15) 
+// {
+//     console.log("Don't forget a jacket!");
+//   } else if (temperature < 25) {
+//     console.log("Have a nice day :)");
+//   } else {
+//     console.log("Keep cool today!");
+//   }
+
+// var temperature = 10;
+// var raining = true;
+// if (temperature < 0) {
+//   console.log("Brr! Don't freeze out there!");
+// }else if (temperature < 15 || /*&&*/ raining === true) {
+//   console.log("Don't forget a jacket!");
+// } else if (temperature < 25) {
+//  console.log("Have a nice day :)");
+// } else {
+//  console.log("Keep cool today!");
+// }
+  
+///arrays
+// var greetings = [];
+//  greetings.push('hi');
+// greetings.push('hello');
+//  greetings;
+// console.log(greetings);
+
+
+var originalArray = [1,2,3,4,5];
+var cloneArray = originalArray;
+cloneArray.push(6);
+
+console.log(cloneArray);
